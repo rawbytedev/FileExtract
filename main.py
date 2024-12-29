@@ -40,7 +40,7 @@ def main():
         time.sleep(1)
         print("getting everything ready")
         clear_console()
-        print(logo)
+        
 
     username = validate_input("GitHub username: ", is_not_empty, "Username cannot be empty.")
     repo_name = validate_input("Repository name: ", is_not_empty, "Repository name cannot be empty.")
